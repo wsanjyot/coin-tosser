@@ -17,7 +17,7 @@ function App() {
 
   function handleToss() {
     const selectedSide = generateRandomElement(coinOptions);
-    setIsFlipping(true);
+   
 
     const randomSpin = Math.floor(Math.random() * 360) + 1080; // Random spin between 1080 and 1440 degrees
     const spinAmount = randomSpin* 360;
@@ -26,7 +26,7 @@ function App() {
     const newRotation = spinAmount + finalFace;
 
     setRotation(newRotation);
-    setCurrentFace(finalFace);
+    
 
 
   setTimeout(() => {
