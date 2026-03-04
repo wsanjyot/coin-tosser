@@ -30,12 +30,6 @@ function App() {
     setRotation(newRotation);
     setCurrentFace(finalFace);
 
-   
-
-    // const landingRotaion = selectedSide === "Heads" ? spinAmount : spinAmount + 180;
-    // console.log("Selected Side:", selectedSide);
-    // console.log(landingRotaion);
-    
 
   setTimeout(() => {
     setResult(selectedSide);
