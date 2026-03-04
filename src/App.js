@@ -8,9 +8,7 @@ function App() {
   const [tossCount, setTossCount] = useState(0);
   const [headsCount, setHeadsCount] = useState(0);
   const [tailsCount, setTailsCount] = useState(0);
-  const [isFlipping, setIsFlipping] = useState(false);
   const [rotation, setRotation] = useState(0);
-  const[currentFace, setCurrentFace] = useState("0");
 
   function generateRandomElement(arr) {
     const randomIndex = Math.floor(Math.random() * arr.length);
